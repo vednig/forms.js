@@ -2,7 +2,7 @@
     ind=0
     dope=0
     var code=window.location.pathname
-    var val = document.forms["submit"]["fname"].value;
+
     function add1(x){
 	dope=parseInt(dope)+parseInt(1);
 	var column=document.createElement("div");
@@ -61,20 +61,3 @@
             }
         }
     }
-var question  = document.getElementById(qname);
-var jsonArr = [];
-
-for (var i = 1; i < num+1; i++) {
-    jsonArr.push("uid":{
-	"writer":
-	"idcode":
-	"timestamp":
-     }
-     "valuebase":{
-        "question": question.value,
-        "option1": option1.value,
-	"option2": option1.value,
-	"option3": option3.value,
-	"option4": option4.value
-    });
-}
