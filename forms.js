@@ -6,7 +6,7 @@ function formcreate(div,method,action,cls,data) {
     formelement.setAttribute('class',cls);
     formelement.setAttribute('method',method);
     for (let index = 0; index < Object.keys(data).length; index++) {
-        key=Object.keys(data)[0]
+        key=Object.keys(data)[index]
         const value = data[key];
         formelement.setAttribute(key,value);
     }
