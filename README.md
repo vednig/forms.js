@@ -1,4 +1,4 @@
-# formearly
+# forms.js
 Open Sourced JS to Create Forms Dynamically.
 Create Dynamic Forms Like these:<br />
 **How to Create A Sample Subscribe Form with forms.js**
