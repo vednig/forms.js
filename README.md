@@ -1,7 +1,7 @@
 # forms.js
 Open Sourced JS to Create Forms Dynamically.
 Create Dynamic Forms Like these:<br />
-## **Building Sample Subscribe Form with forms.js**
+## **Building Sample Mail Subscribe Form with forms.js**
 <ul>
 <li>include 'bootstrap'
 <li>include 'forms.js'
@@ -19,8 +19,8 @@ Create Dynamic Forms Like these:<br />
     z=formadd(y,'input','z',{class:'form form-control',placeholder:'Email-Address'})
  </script>
 ```
-+ This will create a form like this:
-<img src=https://res.cloudinary.com/cloud9-labs/image/upload/v1609055306/readmefiles/form_gukytq.png />
+</ul>
+
 
 ## **Functions**
 `formcreate` - creates form component <br>
