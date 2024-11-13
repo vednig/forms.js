@@ -1,5 +1,6 @@
 # forms.js
 Open Sourced JS to Create Forms Dynamically.
+Object Mapped
 Create Dynamic Forms Like these:<br />
 ## **Building Sample Mail Subscribe Form with forms.js**
 <ul>
