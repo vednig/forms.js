@@ -13,10 +13,10 @@ Create Dynamic Forms Like these:<br />
 <script src='https://cdn.jsdelivr.net/gh/vednig/formearly/forms.js'></script>
 <script>
     div=document.getElementById('df-1')
-    x=formcreate(div,'GET','forms.js','uk',{'class':'red'})
-    console.log(x)
-    y=formadd(x,'label','y',{class:'container text-primary',value:'Go'},'Subscribe to Email')
-    z=formadd(y,'input','z',{class:'form form-control',placeholder:'Email-Address'})
+    myform=formcreate(div,'GET','forms.js','uk',{'class':'red'})
+    console.log(myform)
+    label=formadd(myform,'label','y',{class:'container text-primary',value:'Go'},'Subscribe to Email')
+    email=formadd(myform,'input','z',{class:'form form-control',placeholder:'Email-Address'})
  </script>
 ```
 </ul>
